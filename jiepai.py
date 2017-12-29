@@ -90,7 +90,7 @@ def download_image(url):
 
 def save_image(content):#创建对应分类的文件夹，并且保存图片。个人
     dir_name=str(KEYWORD)+'_'+str(GROUP_START)+'-'+str(GROUP_END)#个人补充功能！
-    dir_path='F:\python\DATA\jiepai\heisi\{}'.format(dir_name)
+    dir_path='F:\python\DATA\jiepai\jiepai\{}'.format(dir_name)
     try:
         os.mkdir(dir_path)
     except:
